@@ -10,7 +10,9 @@ import android.view.View;
 import com.google.android.material.tabs.TabLayout;
 
 public class Menu extends AppCompatActivity {
-    CardView wLoss,wGain;
+    CardView wLoss,wGain,skinCare,hairCare,bodyCare,generalTips;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
