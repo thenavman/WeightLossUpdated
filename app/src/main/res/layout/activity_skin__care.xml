@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
     android:orientation="vertical"
-    android:padding="5dp">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/weight1"
         android:layout_width="170dp"
         android:layout_height="148dp"
         android:layout_marginStart="8dp"
@@ -20,71 +16,30 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        app:cardBackgroundColor="@color/cardview_light_background"
-        app:cardMaxElevation="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.035"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.22">
-
+        app:layout_constraintVertical_bias="0.936">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/img_greyhair"
             android:layout_width="146dp"
             android:layout_height="112dp"
             android:layout_gravity="center"
-            app:srcCompat="@drawable/wloss" />
+            app:srcCompat="@drawable/itching" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/txt_greyhair"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center"
-            android:text="Weight Loss"
-            android:textStyle="bold" />
-
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/Cardview_haircare"
-        android:layout_width="170dp"
-        android:layout_height="148dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
-        app:cardBackgroundColor="@color/cardview_light_background"
-
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.832">
-
-
-        <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="146dp"
-            android:layout_height="112dp"
-            android:layout_gravity="center"
-            app:srcCompat="@drawable/hair" />
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom|center"
-            android:text="Hair Care"
+            android:text="Itching"
             android:textStyle="bold" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/Cardview_weightgain"
         android:layout_width="170dp"
         android:layout_height="148dp"
         android:layout_marginStart="8dp"
@@ -93,34 +48,30 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        app:cardBackgroundColor="@color/cardview_light_background"
-        app:cardMaxElevation="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.981"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.225">
+        app:layout_constraintVertical_bias="0.628">
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/img_hair_growth"
             android:layout_width="146dp"
             android:layout_height="112dp"
             android:layout_gravity="center"
-
-            app:srcCompat="@drawable/gainweightt" />
+            app:srcCompat="@drawable/fire" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/txt_hair_growth"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center"
-            android:text="Weight Gain"
+            android:text="SunBurn"
             android:textStyle="bold" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/Cardview_bodycare"
         android:layout_width="170dp"
         android:layout_height="148dp"
         android:layout_marginStart="8dp"
@@ -129,33 +80,30 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        app:cardBackgroundColor="@color/cardview_light_background"
-        app:cardMaxElevation="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.035"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.526">
+        app:layout_constraintVertical_bias="0.313">
 
         <ImageView
-            android:id="@+id/imageView6"
+            android:id="@+id/img_hair_loss"
             android:layout_width="146dp"
             android:layout_height="112dp"
             android:layout_gravity="center"
-            app:srcCompat="@drawable/bodycare" />
+            app:srcCompat="@drawable/acne" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/txt_hairloss"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center"
-            android:text="Body Care"
+            android:text="Acne/Pimples"
             android:textStyle="bold" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/Cardview_generaltips"
         android:layout_width="170dp"
         android:layout_height="148dp"
         android:layout_marginStart="8dp"
@@ -166,29 +114,28 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.982"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.526">
+        app:layout_constraintVertical_bias="0.313">
 
         <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="146dp"
-            android:layout_height="112dp"
+            android:id="@+id/img_dandruff"
+            android:layout_width="100dp"
+            android:layout_height="67dp"
             android:layout_gravity="center"
-            app:srcCompat="@drawable/generaltip" />
+            app:srcCompat="@drawable/scar" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/txt_dandruff"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center"
-            android:text="General Tips"
+            android:text="Scars"
             android:textStyle="bold" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardview_skin_care"
         android:layout_width="170dp"
         android:layout_height="148dp"
         android:layout_marginStart="8dp"
@@ -199,26 +146,60 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.037"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.827">
+        app:layout_constraintVertical_bias="0.628">
 
         <ImageView
+            android:id="@+id/img_itching"
+            android:layout_width="146dp"
+            android:layout_height="112dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/tan" />
 
+        <TextView
+            android:id="@+id/txt_itching"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:text="Tan"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="170dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.982"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.936">
+
+        <ImageView
+            android:id="@+id/img_face_care"
             android:layout_width="146dp"
             android:layout_height="112dp"
             android:layout_gravity="center"
             app:srcCompat="@drawable/skincare" />
 
         <TextView
-
+            android:id="@+id/txt_facecare"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center"
-            android:text="Skin Care"
+            android:text="Face Care"
             android:textStyle="bold" />
     </androidx.cardview.widget.CardView>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
