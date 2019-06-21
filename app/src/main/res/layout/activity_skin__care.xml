@@ -21,7 +21,7 @@
         app:layout_constraintHorizontal_bias="0.035"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.936">
+        app:layout_constraintVertical_bias="0.961">
 
         <ImageView
             android:id="@+id/img_greyhair"
@@ -85,7 +85,7 @@
         app:layout_constraintHorizontal_bias="0.035"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.313">
+        app:layout_constraintVertical_bias="0.301">
 
         <ImageView
             android:id="@+id/img_hair_loss"
@@ -117,7 +117,7 @@
         app:layout_constraintHorizontal_bias="0.982"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.313">
+        app:layout_constraintVertical_bias="0.301">
 
         <ImageView
             android:id="@+id/img_dandruff"
@@ -146,10 +146,10 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.037"
+        app:layout_constraintHorizontal_bias="0.035"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.628">
+        app:layout_constraintVertical_bias="0.627">
 
         <ImageView
             android:id="@+id/img_itching"
@@ -182,7 +182,7 @@
         app:layout_constraintHorizontal_bias="0.982"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.936">
+        app:layout_constraintVertical_bias="0.961">
 
         <ImageView
             android:id="@+id/img_face_care"
@@ -200,6 +200,23 @@
             android:textStyle="bold" />
     </androidx.cardview.widget.CardView>
 
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="266dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049"
+        app:srcCompat="@drawable/skin_care_bg" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

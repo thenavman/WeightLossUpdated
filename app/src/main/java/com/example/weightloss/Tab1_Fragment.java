@@ -18,19 +18,20 @@ public class Tab1_Fragment extends Fragment {
     private static final String TAG = "Tab1_Fragment";
     Button btnTest1;
 
-    @Nullable
-    @Override
+    //    @Nullable
+//    @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.tab1_fragment, container, false);
-//        btnTest1=view.findViewById(R.id.button);
-//
-//        btnTest1.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Toast.makeText(getActivity(), "clicked", Toast.LENGTH_SHORT).show();
-//            }
-//        });
-//
-       return view;
+////        btnTest1=view.findViewById(R.id.button);
+////
+////        btnTest1.setOnClickListener(new View.OnClickListener() {
+////            @Override
+////            public void onClick(View view) {
+////                Toast.makeText(getActivity(), "clicked", Toast.LENGTH_SHORT).show();
+////            }
+////        });
+////
+        return view;
     }
+
 }

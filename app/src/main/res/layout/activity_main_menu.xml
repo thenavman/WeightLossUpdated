@@ -64,7 +64,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.832">
+        app:layout_constraintVertical_bias="0.959">
 
 
         <ImageView
@@ -136,7 +136,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.526">
+        app:layout_constraintVertical_bias="0.589">
 
         <ImageView
             android:id="@+id/imageView6"
@@ -169,7 +169,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.526">
+        app:layout_constraintVertical_bias="0.59">
 
         <ImageView
             android:id="@+id/imageView4"
@@ -202,7 +202,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.827">
+        app:layout_constraintVertical_bias="0.968">
 
         <ImageView
 
@@ -219,6 +219,24 @@
             android:text="Skin Care"
             android:textStyle="bold" />
     </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="239dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/mycare_bg" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
